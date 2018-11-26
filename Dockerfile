@@ -1,5 +1,6 @@
 FROM python:3.7-alpine
 
+ARG DEVELOPMENT
 COPY requirements.txt /app/requirements.txt
 COPY dev-requirements.txt /app/dev-requirements.txt
 WORKDIR /app
